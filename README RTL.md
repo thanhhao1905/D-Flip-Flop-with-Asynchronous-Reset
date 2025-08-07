@@ -1,5 +1,5 @@
 ```verilog
-module D_flip_flop (input d ,clk ,rest_n,
+module d_ff_async_rst_n (input d ,clk ,rest_n,
                     output reg q);
   
   always @ (posedge clk or negedge rest_n) begin
