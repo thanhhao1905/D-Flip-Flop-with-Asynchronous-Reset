@@ -1,6 +1,6 @@
 ```verilog
 `timescale 1ps/1ps
-module tb_D_flip_flop;
+module tb_d_ff_async_rst_n;
   reg d ,clk ,rest_n;
   wire q;
   
