@@ -4,7 +4,7 @@ module tb_D_flip_flop;
   reg d ,clk ,rest_n;
   wire q;
   
-  D_flip_flop DUT (d,clk,rest_n,q);
+  d_ff_async_rst_n DUT (d,clk,rest_n,q);
   
   always #1 clk = ~clk;
   
